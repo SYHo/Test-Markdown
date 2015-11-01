@@ -1,6 +1,7 @@
 #Try out syntax in a Markdown file (header 1)
 
 ##Create a list in bullet points (header 2)
+##Michael is good with Bathrooms
 Bathroom renovation work items:
 +Rip out existing bathroom tiles and fixtures
 +Dispose the abestoes
