@@ -2,9 +2,9 @@
 
 Q1.	You are assigned to fix a Production incident.  Due to a defect in the ETL job released 6 months ago, some records in a time variant table are erroneous.   The table contains record sets of a million accounts  (one row for each attribute of an account).  For each accounts, only some attributes are active and some are closed.  However, in this table, either all attributes of an account are active or they are all closed.  For incident fixes, developers need to do both trouble shooting and fix.
 
-    + What do you suspect to be wrong in the ETL job?
-    +	Provided your suspicion turns out to be correct, what would you do?
-    +	If data fix is required, what solution approach will you take?  Why?
+     a. What do you suspect to be wrong in the ETL job?
+     b. Provided your suspicion turns out to be correct, what would you do?
+     c. If data fix is required, what solution approach will you take?  Why?
 
 >Comment - Candidates are expected to elaborate the delta columns selection, and how to do upsert properly. Both root cause fix at the ETL job and data clean up to form a correct baseline for future deltas are required. If the error is only recent, candidates can suggest removing records inserted since the problem started, and re-run the loads in the correct sequence to catch up.  However, if the problem has been there for a while, as in this scenario, the risk and cost is higher.  Candidates experienced in ETL should be able to mention the risk. The alternative is to clean up latest record sets to reflect scenarios in source systems but leave the history as is.
 
